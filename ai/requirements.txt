@@ -1,0 +1,19 @@
+# Minimal dependencies actually used by the current code (no version pins)
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+neo4j
+boto3
+numpy
+pypdf
+openai
+requests
+cohere
+# Optional (uncomment if you later use these features)
+# pdfminer.six      # advanced PDF text extraction
+# pytesseract       # OCR
+# pdf2image         # PDF page rasterization for OCR
+# Pillow            # Image processing for OCR
+# python-docx       # .docx parsing (not currently imported)
+# PyPDF2            # Alternative PDF reader (not used; using pypdf)
